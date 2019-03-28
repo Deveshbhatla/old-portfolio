@@ -35,7 +35,7 @@ img {
        }
 .p1
 {color:#9f9f9f;
- margin-left: 100px;   
+ margin-left: 50px;   
 margin-right: 00px;
 font-family:monospace
 }
@@ -50,7 +50,7 @@ font-family:monospace
 
 #p1{
     margin-left: 100px;
-    margin-right: 500px;
+    margin-right: 100px;
   background-color: #675d5d;
   border-radius: 05px;
   /* (height of inner div) / 2 + padding */
@@ -61,13 +61,13 @@ font-family:monospace
   background-color: #b9b8b6;
   width: 80%;
   /* Adjust with JavaScript */
-  height: 40px;
+  height: 70px;
   border-radius: 0px;
 }
 #p2{
     margin-left: 100px;
   background-color: #675d5d;
-        margin-right: 500px;
+        margin-right: 100px;
 
   border-radius: 05px;
   /* (height of inner div) / 2 + padding */
@@ -78,14 +78,14 @@ font-family:monospace
   background-color: #b9b8b6;
   width: 75%;
   /* Adjust with JavaScript */
-  height: 40px;
+  height: 70px;
   border-radius: 0px;
 }
 
 #p3{
     margin-left: 100px;
   background-color: #675d5d;
-        margin-right: 500px;
+        margin-right: 100px;
 
   border-radius: 05px;
   /* (height of inner div) / 2 + padding */
@@ -96,16 +96,15 @@ font-family:monospace
   background-color: #b9b8b6;
   width: 60%;
   /* Adjust with JavaScript */
-  height: 40px;
+  height: 70px;
   border-radius: 0px;
 }
 #p4{
     margin-left: 100px;
   background-color: #675d5d;
-        margin-right: 500px;
+        margin-right: 100px;
 
   border-radius: 05px;
-  /* (height of inner div) / 2 + padding */
   padding: 3px;
 }
 
@@ -113,7 +112,7 @@ font-family:monospace
   background-color: #b9b8b6;
   width: 70%;
   /* Adjust with JavaScript */
-  height: 40px;
+  height: 70px;
   border-radius: 0px;
 }
 .h5
@@ -129,7 +128,7 @@ font-family:monospace
 {
    margin-left: 100px;
   background-color: #ffffff;
-        margin-right: 500px;
+        margin-right: 100px;
 padding: 25px;  
 }
 .h6
