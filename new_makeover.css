@@ -1,6 +1,6 @@
 
 
-/* The element to apply the animation to */
+
 body{
   
   position: relative;
@@ -36,7 +36,7 @@ img {
 .p1
 {color:#9f9f9f;
  margin-left: 100px;   
-margin-right: 300px;
+margin-right: 00px;
 font-family:monospace
 }
 .h4
@@ -61,7 +61,7 @@ font-family:monospace
   background-color: #b9b8b6;
   width: 80%;
   /* Adjust with JavaScript */
-  height: 20px;
+  height: 40px;
   border-radius: 0px;
 }
 #p2{
@@ -78,7 +78,7 @@ font-family:monospace
   background-color: #b9b8b6;
   width: 75%;
   /* Adjust with JavaScript */
-  height: 20px;
+  height: 40px;
   border-radius: 0px;
 }
 
@@ -96,7 +96,7 @@ font-family:monospace
   background-color: #b9b8b6;
   width: 60%;
   /* Adjust with JavaScript */
-  height: 20px;
+  height: 40px;
   border-radius: 0px;
 }
 #p4{
@@ -113,7 +113,7 @@ font-family:monospace
   background-color: #b9b8b6;
   width: 70%;
   /* Adjust with JavaScript */
-  height: 20px;
+  height: 40px;
   border-radius: 0px;
 }
 .h5
@@ -130,7 +130,6 @@ font-family:monospace
    margin-left: 100px;
   background-color: #ffffff;
         margin-right: 500px;
-
 padding: 25px;  
 }
 .h6
@@ -155,7 +154,7 @@ padding: 25px;
   margin: 30px;
   padding: 20px;
   font-size: 30px;
-    border-radius: 50px;
+    border-radius:50px;
 }
 
 .h7
