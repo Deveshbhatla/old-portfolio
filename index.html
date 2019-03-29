@@ -1,7 +1,7 @@
 <html>
     <link rel="stylesheet" type=text/css href="new_makeover2.css">
     <Head>Helllo </Head>
-  <a href="#about" color="white"> <img src="aboutme.jpg" height="70" width="100"></a>
+  <!--<a href="#about" color="white"> <img src="aboutme.jpg" height="70" width="100"></a>
     <a href="#skills" color="white"> <img src="skills.jpg" height="70" width="100"></a>    
     
     <a href="#hobbies" color="white"> <img src="hobbies.jpg" height="70" width="100"></a>   
@@ -16,8 +16,46 @@
     
     <a href="#contact" color="white"> <img src="contact.jpg" height="70" width="100"></a>
     
-    <body>
+    -->
     
+    <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+      position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+    <body>
+    <ul>
+  <li><a class="active" href="#about">About</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#hobbies">Hobbies</a></li>
+  <li><a href="#technology">Technology</a></li>
+   <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contacts</a></li>         
+   
+        </ul>
         
         <h1 class="head"><Center><font>I'm Devesh Bhatla</font></Center></h1>
     
@@ -25,7 +63,7 @@
         
     </body>
     <center><img src="IMG_20190123_192142.jpg" alt="devesh" height="700px"> </center>
-    <h3 class="h3"+> <font size =7>About Me</font></h3>
+    <h3 class="h3" id="about"> <font size =7>About Me</font></h3>
     <div class="p1"><font size=6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod elementum nisi quis eleifend. Sed cras ornare arcu dui vivamus arcu felis bibendum. Consequat interdum varius sit amet. Volutpat ac tincidunt vitae semper. Curabitur vitae nunc sed velit dignissim sodales. Eu mi bibendum neque egestas congue quisque. Eget est lorem ipsum dolor sit amet consectetur adipiscing. Sapien faucibus et molestie ac feugiat. Tincidunt lobortis feugiat vivamus at augue. Lacus luctus accumsan tortor posuere ac ut consequat. Diam donec adipiscing tristique risus nec feugiat in fermentum. Faucibus purus in massa tempor nec feugiat nisl pretium. Sed euismod nisi porta lorem mollis aliquam ut. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Neque laoreet suspendisse interdum consectetur libero.
 
 
@@ -35,7 +73,7 @@
 
 
     
-    <h4 class="h4"> <font size=7>My Skills</font>    </h4>
+    <h4 class="h4" id="skills"> <font size=7>My Skills</font>    </h4>
     
     <div id="p1">
         <div><font size=6>HTML </font> </div>
@@ -57,7 +95,7 @@
 <br>    <br>    <br>    <br>    <br>    
 
     
-    <h4 class="h5"> <font size=7>  My Hobbies     </font></h4>
+    <h4 class="h5" id="hobbies"> <font size=7>  My Hobbies     </font></h4>
     <div class="p2">
     <div id="p5"><font size=10> Astronomy</font></div><br>
    <div id="p5"><font size=10> Photography</font></div><br>
@@ -67,7 +105,7 @@
 <br>    <br>    <br>    <br>    <br>        
     
     
-    <h4 class="h6" id="Technology"> <font size=7>Technologies Known</font></h4>
+    <h4 class="h6" id="technology"> <font size=7>Technologies Known</font></h4>
     
     
     <div class="flex-container">
@@ -91,7 +129,7 @@
     
     
     
-    <h7 class="h7"> <font size=7>Education</font></h7>
+    <h7 class="h7" id="education"> <font size=7>Education</font></h7>
     
     <div class="flex-container2">
     <div>
@@ -121,7 +159,7 @@
     <br> <br> <br> <br> <br>   
     
     
-    <h7 class="h8"><font size=7>Contact Me</font>   </h7><br>
+    <h7 class="h8" id="contact"><font size=7>Contact Me</font>   </h7><br>
     
    <div class="flex-container3">
        <div> 
