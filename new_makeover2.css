@@ -150,10 +150,12 @@ padding: 25px;
 
 .flex-container > div {
   background-color: #d1d1d1;
-  margin: 30px;
+  margin: 40px;
   padding: 20px;
   font-size: 30px;
+    height: 15;
     border-radius:50px;
+    width: 700;
 }
 
 .h7
